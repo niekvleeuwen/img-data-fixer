@@ -1,3 +1,16 @@
+[project]
+name = "img_date_fixer"
+description = "Small Python CLI application to fill missing metadata of images based on the filename."
+version = "0.1.0"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["img_date_fixer"]
+
+[project.scripts]
+img_date_fixer = "img_date_fixer.cli:main"
+
 [tool.black]
 line-length = 120
 target-version = ['py310']

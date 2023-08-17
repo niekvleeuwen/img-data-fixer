@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from img_date_fixer.main import parse_image_filename_to_datetime
+from img_date_fixer.date_parsing import parse_image_filename_to_datetime
 
 
 # Define test cases
